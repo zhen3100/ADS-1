@@ -2,9 +2,9 @@
 #ifndef INCLUDE_ALG_H_
 #define INCLUDE_ALG_H_
 
-bool checkPrime(unsigned int value);
-unsigned long long nPrime(unsigned n);
-unsigned long long nextPrime(unsigned long long value);
-unsigned long long sumPrime(unsigned int hbound);
+bool checkPrime(uint64_t value);
+uint64_t nPrime(uint64_t n);
+uint64_t nextPrime(uint64_t value);
+uint64_t sumPrime(uint64_t hbound);
 
 #endif  // INCLUDE_ALG_H_

@@ -2,18 +2,18 @@
 #include "alg.h"
 
 
-bool checkPrime(unsigned int value) {
-
+bool checkPrime(uint64_t value) {
+// вставьте код функции
 }
 
-unsigned long long nPrime(unsigned n) {
-
+uint64_t nPrime(uint64_t n) {
+// вставьте код функции
 }
 
-unsigned long long nextPrime(unsigned long long value) {
-
+uint64_t nextPrime(uint64_t value) {
+// вставьте код функции
 }
 
-unsigned long long sumPrime(unsigned int hbound) {
-   
+uint64_t sumPrime(uint64_t hbound) {
+// вставьте код функции
 }
