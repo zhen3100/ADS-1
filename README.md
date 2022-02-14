@@ -16,10 +16,10 @@
 **Состав проекта**
 
 ```C++
-   - bool checkPrime(unsigned int value) - проверка числа на простоту.
-   - unsigned long long nPrime(unsigned n) - нахождение n-ого простого числа (в ряду).
-   - unsigned long long nextPrime(unsigned long long value) - нахождение ближайшего следующего простого числа к value.
-   - unsigned long long sumPrime(unsigned int hbound) - сумма всех чисел до hbound (не включая его)
+   - bool checkPrime(uint64_t value) - проверка числа на простоту.
+   - uint64_t nPrime(uint64_t n) - нахождение n-ого простого числа (в ряду).
+   - uint64_t nextPrime(uint64_t value) - нахождение ближайшего следующего простого числа к value.
+   - uint64_t sumPrime(uint64_t hbound) - сумма всех чисел до hbound (не включая его)
  ```
 
 
@@ -32,18 +32,18 @@
 
 
 ```C++
-bool checkPrime(unsigned int value) {
+bool checkPrime(uint64_t value) {
 
 }
 ```
 
 - **value** - проверяемое значение
 
-Функция возвращает **true**, если число простое и **false** в противном случае.
+Функция возвращает **true**, если число **value** простое и **false** в противном случае.
 
 
 ```C++
-unsigned long long nPrime(unsigned n) {
+uint64_t nPrime(uint64_t n) {
 
 }
 ```
@@ -53,17 +53,17 @@ unsigned long long nPrime(unsigned n) {
 Функция возвращает найденное простое число.
 
 ```C++
-unsigned long long nextPrime(unsigned long long value) {
+uint64_t nextPrime(uint64_t value) {
 
 }
 ```
 
-- **value** - исходное число, начиная с которого мы ищем ближайшее простое. Само **value** при поиске не учитывается. Например, для чила 4 следующим простым будет 5, а для 11 следующим простым будет 13.
+- **value** - исходное число, начиная с которого мы ищем ближайшее простое. Само **value** при поиске не учитывается. Например, для числа 4 следующим простым будет 5, а для 11 следующим простым будет 13.
 
 Функция возвращает найденное простое число.
 
 ```C++
-unsigned long long sumPrime(unsigned int hbound) {
+uint64_t sumPrime(uint64_t hbound) {
    
 }
 ```
