@@ -1,4 +1,4 @@
-# ADS-1 Простые числа
+# ADS-1 Библиотека для работы с простыми числами
 
 
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/NNTU-CS/ADS-1)
