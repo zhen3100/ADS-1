@@ -1,7 +1,7 @@
 // Copyright 2022 NNTU-CS
 #include <cstdint>
-#include "alg.h"
-#include <math.h> 
+#include <math.h>
+#include "alg.h" 
 
 
 bool checkPrime(uint64_t value) {
@@ -43,7 +43,7 @@ uint64_t nextPrime(uint64_t value) {
 }
 
 uint64_t sumPrime(uint64_t hbound) {
-    int s = 0;
+    uint64_t s = 0;
     for (int i = 2; i < hbound; i++) {
         if (checkPrime(i) == true) {
             s += i;
