@@ -50,5 +50,5 @@ int s = 0;
 			s += i;
 		}
 	}
-	return s
+	return s;
 }
